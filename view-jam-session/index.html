@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Instrumentality.com</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link type="text/css" rel="stylesheet" href="../includes/css/style.css" />
+</head>
+
+<body>
+
+<section>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="instrumentality-logo-title-container"><a href="../"><img src="../includes/images/logos/instrumentality-logo.svg" class="instrumentality-title-logo" alt="Instrumentality Logo" /></a><a class="navbar-brand instrumentality-title-header" href="#">Instrumentality</a></div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="../">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../create-jam-session">Create a Jam Session</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="view-jam-session-button" data-toggle="modal" data-target="#view-jam-session-modal">View a Jam Session</a>
+		</li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Search for a Musician</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="../create-an-account-sign-up">Create a Digital Profile</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>	
+	
+
+	
+
+
+	
+	
+	
+      <section class="instrumentality-section" style="background-size:cover;min-height:100vh;background-color:#3098d4;">
+        <div class="container-fluid">
+          <div class="mt-3 pl-md-4 pb-md-3 mb-md-3 pr-md-4 pt-3">
+            <div class="row flex-grid-row">
+				<div class="col-md-4 flex-grid-column">
+					<img src="../includes/images/redhead.png" class="view-jam-session-profile-img mt-5 pt-5" alt="Red Head" /> <p class="view-jam-session-info mt-5 pt-5">Jimmy Rocket (Host)</p><p class="view-jam-session-info mt-1">Guitar</p>	
+          </div>
+				<div class="col-md-8 flex-grid-column">
+				<p class="view-jam-session-heading">Thundercats rock jam session</p>
+          </div>	
+        </div>
+			  <div class="row flex-grid-row">
+				<div class="col-md-6 flex-grid-column">
+					<p class="view-jam-session-main-info">Rock</p>
+					<p class="view-jam-session-main-info-double-line">Address: 23432 Nw 11th Ave<br />Beaverton, Oregon</p>
+					<p class="view-jam-session-main-info-double-line">August 6, 2021<br />4:00pm - 9:00pm</p>
+					<p class="view-jam-session-main-info">Here is a summary of what the event is going to be like.</p>
+				  </div>
+				  <div class="col-md-6 flex-grid-column">
+					  <img src="../includes/images/view-jam-session-image.jpg" class="view-jam-session-img" alt="View Jam Session Image" />
+				  </div>
+			  </div>
+			  </div>
+			</div>
+      </section>
+	
+	
+	
+<!-- Modal -->
+<div class="modal fade instrumentality-modal" id="view-jam-session-modal" tabindex="-1" role="dialog" aria-labelledby="View Jam Session" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="view-jam-session-modal-title">Please Input Your Zip Code</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+  <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-12">
+            <div class="row flex-grid-row">
+                    <div class="col-md-12 mb-3 flex-grid-column">
+                      <input type="text" class="form-control" id="zip-code" style="margin-top:45px" placeholder="" value="" required="">
+                    </div>
+                  </div>
+          </div>
+			<div class="row">
+          <div class="col-12 col-sm-12">
+            <div class="view-jam-session-radius-container">
+				  <form>
+                  <div class="row flex-grid-row">
+                    <div class="col-md-12 mb-3 flex-grid-column">
+						<div class="view-jam-session-radius-radio-btn-container">
+							<h3 style="text-align:center;margin-top:25px;">Select Radius</h3>
+						<div class="form-check">
+  							<input class="form-check-input radio3" type="radio" name="group1" id="r1">
+ 							<label class="form-check-label" for="r1"></label>
+							<input class="form-check-input radio3" type="radio" name="group1" id="r2">
+ 							<label class="form-check-label" for="r2"></label>
+							<input class="form-check-input radio3" type="radio" name="group1" id="r3">
+ 							<label class="form-check-label" for="r3"></label>
+						</div>
+							<ul class="view-jam-levels-container"><li class="view-jam-levels-first">5</li><li class="view-jam-levels-second">15</li><li class="view-jam-levels-third">35</li></ul>
+						</div>
+					  </div>
+					  </div>
+				  </form>
+				  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href="../view-jam-session-map"><button type="button" class="btn instrumentality-button">Submit</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>	
+	
+	
+	
+	
+	
+	
+<section>
+      <footer class="pt-4 pb-4 bg-light text-dark">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-12 mt-4 text-center">
+              &copy; 2021 Instrumentality. All Rights Reserved.
+            </div>
+          </div>
+        </div>
+     </footer>
+</section>
+	
+	
+<script>
+	$(function(){
+
+  $('#viewJamSessionModal').on('shown.bs.modal', function () {
+  $('#viewJamSessionButton').trigger('focus')
+})
+
+}); 
+</script>	
+	
+	
+	
+	
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

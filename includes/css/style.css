@@ -1,0 +1,281 @@
+
+@font-face{font-family:custom0;src:url(../fonts/anton-regular.ttf);}
+
+@font-face{font-family:custom1;src:url(../fonts/lexend-regular.ttf);}
+
+@font-face{font-family:custom2;src:url(../fonts/lexend-medium.ttf);}
+
+@font-face{font-family:custom3;src:url(../fonts/lexend-semibold.ttf);}
+
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit;}
+
+html,body{font-size:15px;line-height:1.5;background-color:#242424 !important;}
+
+html{overflow-x:hidden;}
+
+body{background-color:#242424 !important;margin:0 !important;padding:0 !important;}
+
+::selection{background-color:#999999;}
+
+.instrumentality-heading{font-family:custom3;font-size:2.3em;color:#ffffff;}
+
+.instrumentality-subheading{font-family:custom2;font-size:2em;color:#ffffff;}
+
+.instrumentality-button{font-family:custom2;background-color:#3a3f93;color:#ffffff;}
+
+.instrumentality-logo-title-container{display:flex;align-items:center;}
+
+.instrumentality-title-logo{width:100px;height:auto;}
+
+.instrumentality-title-header{font-family:custom0;font-size:1.6em;}
+
+.instrumentality-section{padding:6em 4em;}
+
+.modal-body{font-family:custom2;color:#ffffff;background-color:#079BE6;}
+
+
+
+/*Small Column Styles*/
+.navbar{font-family:custom3;position:fixed;top:0;width:100%;z-index:9999;}
+
+.nav-item{font-size:1.4em;margin-right:10px;}
+
+footer{font-family:custom1;position:fixed;bottom:0;width:100%;z-index:8888;font-size:1.5em;}
+
+a:link{text-decoration:none;color:#ffffff;}
+
+a:visited{text-decoration:none;color:#ffffff;}
+
+a:hover{text-decoration:none;color:#ffffff;}
+
+a:active{text-decoration:none;color:#ffffff;}
+
+.main-container{position:relative;z-index:88;}
+
+.column-one{padding:20em 0;margin:10em 0;}
+
+.column-two{padding:20em 0;margin:10em 0;}
+
+.flex-grid-row{display:flex;flex-direction:row;align-items:center;justify-content:center;}
+
+.flex-grid-column{flex:50%;height:100%;}
+
+.main-title{font-family:custom0;font-size:9em;color:#d8d8d8;text-align:center;}
+
+.create-jam-session-image{width:90%;height:auto;display:block;margin:0 auto;}
+
+.review-jam-session-heading{font-family:custom3;font-size:1.8em;color:#ffffff;font-weight:bold;}
+
+.review-jam-session-information{font-family:custom1;font-size:1.6em;color:#ffffff;}
+
+.thank-you-for-creating-a-jam-session-video{width:40%;height:auto;display:block;margin:0 auto;}
+
+.thank-you-for-creating-a-jam-session{font-family:custom3;font-size:4em;color:#ffffff;text-align:center;}
+
+.create-an-account-container{width:500px;}
+
+.create-an-account-hr{border-top: 1px solid #000000;}
+
+#password{width:400px;display:block;margin:0 auto;}
+
+#email-address{width:400px;display:block;margin:0 auto;}
+
+.create-an-account-btn{font-family:custom2;width:400px;display:block;margin:0 auto;}
+
+.create-an-account-form-container{margin-bottom:2em;}
+
+.create-an-account-btn-container{margin-top:3em;}
+
+.form-select-lg{width:400px;font-size:2em;display:block;margin:0 auto;}
+
+.form-check{width:650px;display:block;margin:0 auto;font-size:3em;}
+
+label{font-family:custom2;font-size:1.4em;color:#ffffff;}
+
+.levels-container{font-family:custom2;color:#ffffff;width:650px;display:flex;margin:0 auto;font-size:2.3em;list-style-type:none;}
+
+.levels-first{margin:0 40px 0 25px;}
+
+.levels-second{margin:0 75px 0 70px;}
+
+.levels-third{margin:0 65px 0 35px;}
+
+.levels-forth{margin:0 75px 0 40px;}
+
+.levels-fifth{margin:0 45px 0 30px;}
+
+.form-select{font-family:custom1;}
+
+input{font-family:custom1;}
+
+input[type=radio]{display:none;}
+
+input[type=radio] + label::before{content:'';display:inline-block;border:2px solid #ffffff;border-radius:50%;margin:0 0.5em;}
+
+input[type=radio]:checked + label::before{background-color:#3a3f93;}
+
+.radio3 + label::before{width:.5em;height:.5em;}
+
+.radio4 + label::before{width:.8em;height:.8em;}
+
+.profile-image{width:46%;display:block;margin:0 auto;}
+
+.profile-name{font-family:custom2;color:#ffffff;font-size:4em;text-align:center;line-height:2;}
+
+.profile-info-left{font-family:custom1;color:#ffffff;font-size:2.3em;text-align:center;line-height:2;}
+
+.profile-info-right{font-family:custom1;color:#ffffff;font-size:3em;text-align:left;line-height:2;}
+
+.profile-information-container{margin-left:7em;padding-bottom:13em;}
+
+.vertical-hr{border-left:4px solid #ffffff;height:600px;position:absolute;top:50px;}
+
+.find-a-jam-sess-link-container{width:100%;text-align:center;position:relative;top:20px;}
+
+.find-a-jam-sess-link:link{font-family:custom2;font-size:2em;text-decoration:underline;color:#000000;}
+
+.find-a-jam-sess-link:visited{text-decoration:underline;color:#000000;}
+
+.find-a-jam-sess-link:hover{text-decoration:underline;color:#333333;}
+
+.find-a-jam-sess-link:active{text-decoration:underline;color:#000000;}
+
+.homepage-card{width:70%;display:block;margin:0 auto;}
+
+.card-title{font-family:custom2;font-size:2em;color:#222123;}
+
+.card-text{font-family:custom1;font-size:1.5em;color:#222123;}
+
+.jam-session-card-profile-img{width:200px;display:block;margin:0 auto 3em auto;}
+
+.homepage-heading{font-family:custom3;font-size:3em;color:#ffffff;position:relative;left:125px;top:300px;text-align:left;}
+
+.view-jam-session-profile-img{width:30%;height:auto;float:left;margin:0 auto;}
+
+.view-jam-session-img{width:80%;height:auto;position:relative;left:10px;}
+
+.view-jam-session-heading{font-family:custom3;font-size:4em;color:#ffffff;text-align:left;}
+
+.view-jam-session-info{font-family:custom1;font-size:2.5em;color:#ffffff;text-align:left;position:relative;top:50px;left:20px;}
+
+.view-jam-session-main-info{font-family:custom1;font-size:2.5em;color:#ffffff;text-align:right;line-height:2;}
+
+.view-jam-session-main-info-double-line{font-family:custom1;font-size:2.5em;color:#ffffff;text-align:right;line-height:1.5;}
+
+.jam-session-profile-heading{font-family:custom3;font-size:7em;color:#ffffff;text-align:center;}
+
+.jam-session-profile-btn{font-family:custom2;position:relative;top:50px;}
+
+.jam-session-profile-info{font-family:custom1;font-size:2.5em;color:#ffffff;text-align:left;}
+
+.jam-session-individual-profile-images{width:150px;}
+
+.attendees-info{font-family:custom1;font-size:1.2em;color:#ffffff;text-align:center;position:relative;top:10px;}
+
+.jam-session-profile-heading{font-family:custom2;font-size:3.7em;color:#ffffff;text-align:center;position:relative;bottom:60px;}
+
+.jam-session-profile-information-container{padding:4em 0;}
+
+.jam-session-profile-info{font-family:custom1;font-size:2.5em;color:#ffffff;text-align:left;line-height:2;}
+
+.jam-session-profile-host-info{font-family:custom2;font-size:3.5em;color:#ffffff;text-align:left;line-height:1.25;}
+
+.jam-session-profile-img{width:30%;height:auto;float:left;margin:0 auto;}
+
+.jam-session-profile-host-info-container{position:relative;left:50px;top:100px;margin:30px 15px;}
+
+.view-jam-session-modal-title{color:#000000 !important;}
+
+.view-jam-levels-container{font-family:custom2;color:#ffffff;width:350px;display:flex;margin:0 auto;font-size:1.8em;list-style-type:none;}
+
+.view-jam-levels-first{margin:0 65px 0 20px;}
+
+.view-jam-levels-second{margin:0 78px 0 20px;}
+
+.view-jam-levels-third{margin:0 0 0 0;}
+
+.view-jam-session-radius-radio-btn-container{width:350px;position:relative;left:60px;}
+
+.view-jam-session-map-heading-container{margin-top:9em;}
+
+.view-jam-session-map-heading{font-family:custom3;font-size:3em;color:#ffffff;text-align:center;}
+
+.view-jam-session-subheading{font-family:custom2;font-size:2em;color:#ffffff;text-align:center;}
+
+.view-jam-session-map-image-container{position:relative;display:flex;}
+
+.view-jam-session-map{width:35%;height:auto;display:block;margin:0 auto;}
+
+.view-jam-session-dot{height:20px;width:20px;background-color:#3a3f93;border-radius:50%;position:absolute;left:42%;top:38%;z-index:888;box-shadow: 1px 1px 6px 6px #6a72f0;animation: glowing 2s infinite;}
+
+@keyframes glowing{50% {box-shadow: 1px 1px 6px 6px #ffffff;}}
+
+
+/*Medium Size Column Styles*/
+@media (min-width:576px){
+	
+	
+
+
+	
+	
+}
+
+
+/*Large Size Column Styles*/
+@media (min-width:768px){
+	
+	
+
+
+	
+}
+
+
+
+
+/*XL Column Styles*/
+@media (min-width:992px){
+
+	
+
+	
+}
+
+
+
+/*XXL Column Styles*/
+@media (min-width:1200px){
+	
+
+
+	
+	
+}
+
+
+
+
+/*XXXL Size Column Styles*/
+@media (min-width:1400px){
+	
+	
+
+
+	
+}
+
+
+
+
+
+/*UHD Size Column Styles*/
+@media (min-width:2000px){
+	
+
+
+	
+	
+}
+
+
