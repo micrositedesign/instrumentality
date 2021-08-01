@@ -17,7 +17,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="../">Home</a>
       </li>
       <li class="nav-item">
@@ -29,7 +29,7 @@
 	  <li class="nav-item">
         <a class="nav-link" href="#">Search for a Musician</a>
       </li>
-	  <li class="nav-item">
+	  <li class="nav-item active">
         <a class="nav-link" href="../create-an-account-sign-up/">Create a Digital Profile</a>
       </li>
     </ul>
@@ -46,56 +46,80 @@
 	
       <section class="pt-5 pb-5 mt-0 align-items-end align-items-md-center d-flex" style="min-height:100vh;background-size:cover;background-color:#3098d4;">
         <div class="container-fluid">
-          <div class="mt-3 pl-md-4 pb-md-3 mb-md-3 pr-md-4 pt-3">
-            <div class="p-5 text-center">
-              <h2 class="instrumentality-heading">Create an Account</h2>
-            </div>
-			  <div class="container create-an-account-container">
+            
+			  
             <div class="row flex-grid-row">
-              <div class="col-md-12 flex-grid-column">
-                
+				<div class="create-an-account-container">
+					
+					
+					<div class="row flex-grid-row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3 mt-3 flex-grid-column">
+                    <h2 class="instrumentality-heading create-an-account-heading">Create an Account</h2>
+                    </div>
+					</div>
+					
+					
 				  <div class="create-an-account-form-container">
 				  <form>
                   <div class="row flex-grid-row">
-                    <div class="col-md-12 mb-3 flex-grid-column">
-                      <input type="text" class="form-control" id="email-address" placeholder="Email" value="Email" required="">
-                    </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3 flex-grid-column">
+                  <input type="text" class="form-control" id="email-address" placeholder="Email" value="" required="">
                   </div>
-				   <div class="row flex-grid-row">
-                    <div class="col-md-12 mb-3 flex-grid-column">
-                      <input type="text" class="form-control" id="password" placeholder="Password" value="Password" required="">
-                    </div>
-					</div>
-					   	</form>
+                  </div>
+				  <div class="row flex-grid-row">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3 flex-grid-column">
+                  <input type="text" class="form-control" id="password" placeholder="Password" value="" required="">
+                  </div>
+			      </div>
+				  </form>
 				  </div>
+
+				  
 					   <hr class="create-an-account-hr" />
 					   
                   
 					<div class="create-an-account-btn-container">
 					
-					<div class="col-md-12 mb-3 flex-grid-column">
-                      <button class="btn btn-lg btn-block instrumentality-button" style="width:400px;display:block;margin:0 auto;" type="google">Sign in with Google</button>
-                    </div>
-
-					<div class="col-md-12 mb-3 flex-grid-column">
-                      <button class="btn btn-lg btn-block instrumentality-button" style="width:400px;display:block;margin:0 auto;" type="facebook">Sign in with Facebook</button>
+						
+						
+					<div class="row flex-grid-row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3 flex-grid-column">
+                    <button class="btn btn-lg btn-block instrumentality-button create-an-account-btn" type="google">Sign in with Google</button>
                     </div>
 					</div>
-
-                  </div>
-		
-          </div>
-				  <div class="row flex-grid-row">
-              <div class="col-md-6 flex-grid-column">
-					  <a href="../what-instrument-do-you-play/"><button class="btn btn-lg btn-block instrumentality-button" style="display:block;margin:50px 0 0 37px;" type="continue">Continue</button></a>
-					  </div>
-					  <div class="col-md-6 flex-grid-column">
-					  <a href="../" style="color:#000000;text-decoration:underline;font-size:1.4em;position:relative;top:25px;left:70px;">Cancel</a>
-					  </div>
-				  </div>
-        </div>
-			  </div>
-			  </div>
+					
+						
+						
+						
+					<div class="row flex-grid-row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3 flex-grid-column">
+                    <button class="btn btn-lg btn-block instrumentality-button create-an-account-btn" type="facebook">Sign in with Facebook</button>
+                    </div>
+					</div>
+				  	
+						
+						
+						
+						
+						
+				<div class="row flex-grid-row">
+              	<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 flex-grid-column">
+				<a href="../upload-profile-image/"><button class="btn btn-lg btn-block instrumentality-button create-an-account-btn" type="continue">Continue</button></a>
+				</div>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 flex-grid-column">
+				<a href="../" class="create-an-account-cancel-button">Cancel</a>
+				</div>
+				</div>
+						
+						
+						
+						
+						
+						
+        			</div><!--End Button Container-->
+			  </div><!--End Main Create Account Container-->
+			  </div><!--End Main Row-->
+			  </div><!--End Main Fluid Container-->
       </section>
 	
 	
@@ -105,7 +129,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="view-jam-session-modal-title">Please Input Your Zip Code</h5>
+        <h5 class="modal-title" id="view-jam-session-modal-title">Please Enter Your Zip Code and a Radius</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -116,24 +140,23 @@
           <div class="col-12 col-sm-12">
             <div class="row flex-grid-row">
                     <div class="col-md-12 mb-3 flex-grid-column">
-                      <input type="text" class="form-control" id="zip-code" style="margin-top:45px" placeholder="" value="" required="">
+                      <input type="text" class="form-control" id="zip-code" style="margin-top:45px" placeholder="Please enter your zip code." value="" required="">
                     </div>
                   </div>
           </div>
 			<div class="row">
-          <div class="col-12 col-sm-12">
-            <div class="view-jam-session-radius-container">
+          <div class="col-12 col-sm-12"><div class="view-jam-session-radius-container">
 				  <form>
                   <div class="row flex-grid-row">
                     <div class="col-md-12 mb-3 flex-grid-column">
 						<div class="view-jam-session-radius-radio-btn-container">
-							<h3 style="text-align:center;margin-top:25px;">Select Radius</h3>
-						<div class="form-check">
-  							<input class="form-check-input radio3" type="radio" name="group1" id="r1">
+							<h3 style="text-align:center;margin-top:25px;">Select Radius (in miles)</h3>
+						<div class="form-check-view-jam-session">
+  							<input class="form-check-input radio3" type="radio" name="group1" id="r21">
  							<label class="form-check-label" for="r1"></label>
-							<input class="form-check-input radio3" type="radio" name="group1" id="r2">
+							<input class="form-check-input radio3" type="radio" name="group1" id="r22">
  							<label class="form-check-label" for="r2"></label>
-							<input class="form-check-input radio3" type="radio" name="group1" id="r3">
+							<input class="form-check-input radio3" type="radio" name="group1" id="r23">
  							<label class="form-check-label" for="r3"></label>
 						</div>
 							<ul class="view-jam-levels-container"><li class="view-jam-levels-first">5</li><li class="view-jam-levels-second">15</li><li class="view-jam-levels-third">35</li></ul>
@@ -142,6 +165,7 @@
 					  </div>
 				  </form>
 				  </div>
+
           </div>
         </div>
       </div>
@@ -162,7 +186,7 @@
 	
 <section>
       <footer class="pt-4 pb-4 bg-light text-dark">
-        <div class="container">
+        <div class="footer-container">
           <div class="row align-items-center">
             <div class="col-12 col-md-12 mt-4 text-center">
               &copy; 2021 Instrumentality. All Rights Reserved.
