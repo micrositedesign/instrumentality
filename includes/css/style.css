@@ -60,7 +60,7 @@ a:active{text-decoration:none;color:#ffffff;}
 
 .flex-grid-column{flex:50%;height:100%;}
 
-.main-title{font-family:custom0;font-size:4em;color:#d8d8d8;text-align:center;margin-top:-9em;margin-left:.5em;}
+.main-title{font-family:custom0;font-size:4em;color:#d8d8d8;text-align:center;margin-top:-7em;margin-left:.5em;}
 
 .create-jam-session-image{width:98%;height:auto;display:block;margin:0 auto;}
 
@@ -76,7 +76,7 @@ a:active{text-decoration:none;color:#ffffff;}
 
 .thank-you-for-creating-a-jam-session{font-family:custom3;font-size:3em;color:#ffffff;text-align:center;}
 
-.create-an-account-container{width:400px;position:relative;top:-14em;}
+.create-an-account-container{width:400px;position:relative;top:-11em;}
 
 .create-an-account-heading{font-size:2.7em;padding:0 0 1em 0;text-align:center;}
 
@@ -98,9 +98,9 @@ a:active{text-decoration:none;color:#ffffff;}
 
 .img-upload-btn{display:block;margin:1em auto 0 auto;}
 
-.upload-an-image-container{position:relative;top:-18em;}
+.upload-an-image-container{position:relative;top:-15em;}
 
-.what-instrument-do-you-play-main-container{position:relative;top:-25em;}
+.what-instrument-do-you-play-main-container{position:relative;top:-16em;}
 
 .what-instrument-do-you-play-cancel-btn{width:400px;font-size:1.5em;margin-top:15px;padding:0 0 !important;}
 
@@ -108,7 +108,7 @@ a:active{text-decoration:none;color:#ffffff;}
 
 .what-instrument-do-you-play-btn{display:block;margin:1em auto 0 auto;}
 
-.what-is-your-skill-level-container{position:relative;top:-19em;}
+.what-is-your-skill-level-container{position:relative;top:-13em;}
 
 .profile-btn{font-family:custom2;width:400px;display:block;margin:0 auto;}
 
@@ -141,8 +141,6 @@ input{font-family:custom1;}
 input[type=radio]{display:none;}
 
 input[type=radio] + label::before{content:'';display:inline-block;border:2px solid #ffffff;border-radius:50%;margin:0 4px;}
-
-.form-check-view-jam-session input[type=radio] + label::before{content:'';display:inline-block;border:2px solid #ffffff;border-radius:50%;margin:0 24px;}
 
 input[type=radio]:checked + label::before{background-color:#3a3f93;}
 
@@ -216,17 +214,11 @@ input[type=radio]:checked + label::before{background-color:#3a3f93;}
 
 .view-jam-session-modal-title{color:#000000 !important;}
 
-.form-check-view-jam-session{width:400px;display:block;margin:0 0 0 60px;font-size:3.4em;}
-
-.view-jam-levels-container{font-family:custom2;color:#ffffff;width:400px;display:flex;margin:0 auto;font-size:1.8em;list-style-type:none;}
-
 .view-jam-levels-first{margin:0 45px 0 55px;}
 
 .view-jam-levels-second{margin:0 58px 0 32px;}
 
 .view-jam-levels-third{margin:0 0 0 10px;}
-
-.view-jam-session-radius-radio-btn-container{width:400px;display:block !important;margin:0 0 0 .85em !important;}
 
 .view-jam-session-map-container{position:relative;top:15em;}
 
@@ -241,6 +233,14 @@ input[type=radio]:checked + label::before{background-color:#3a3f93;}
 .view-jam-session-dot{height:20px;width:20px;background-color:#3a3f93;border-radius:50%;position:absolute;left:26%;top:48%;z-index:888;box-shadow: 1px 1px 6px 6px #6a72f0;animation: glowing 2s infinite;}
 
 @keyframes glowing{50% {box-shadow: 1px 1px 6px 6px #ffffff;}}
+
+.view-jam-session-radius-radio-btn-container{width:400px;display:block !important;margin:0 0 0 .75em !important;}
+
+.form-check-view-jam-session input[type=radio] + label::before{content:'';display:inline-block;border:2px solid #ffffff;border-radius:50%;margin:0 24px;}
+
+.form-check-view-jam-session{width:300px;display:block;margin:0 0 0 60px;font-size:3.4em;}
+
+.view-jam-levels-container{font-family:custom2;color:#ffffff;width:400px;display:flex;margin:0 auto;font-size:1.8em;list-style-type:none;}
 
 
 /*Medium Size Column Styles*/
@@ -456,17 +456,11 @@ input[type=radio] + label::before{content:'';display:inline-block;border:2px sol
 
 .jam-session-profile-host-info-container{left:50px;top:50px;margin:30px 15px;}
 
-.form-check-view-jam-session{width:650px;margin:0 1em 0 1.2em;font-size:4em;}
-	
-.view-jam-levels-container{width:450px;font-size:1.8em;}
-
 .view-jam-levels-first{margin:0 65px 0 70px;}
 
 .view-jam-levels-second{margin:0 78px 0 20px;}
 
 .view-jam-levels-third{margin:0 0 0 0;}
-
-.view-jam-session-radius-radio-btn-container{width:450px;left:0;}
 
 .view-jam-session-map-container{top:15em;}
 
@@ -479,7 +473,15 @@ input[type=radio] + label::before{content:'';display:inline-block;border:2px sol
 .view-jam-session-dot{height:20px;width:20px;left:42%;top:44%;}
 
 @keyframes glowing{50% {box-shadow: 1px 1px 6px 6px #ffffff;}}
+	
+.view-jam-session-radius-radio-btn-container{width:450px;left:-25px;}
 
+.form-check-view-jam-session input[type=radio] + label::before{border:2px solid #ffffff;margin:0 24px;}
+
+.form-check-view-jam-session{width:325px;margin:0 1em 0 1.2em;font-size:4em;}	
+	
+.view-jam-levels-container{width:450px;font-size:1.8em;}
+	
 	
 	
 }
